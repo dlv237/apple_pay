@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+
 .App {
   text-align: center;
 }
@@ -37,7 +39,6 @@
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 :root {
   --color-bg1: rgb(8, 10, 15);

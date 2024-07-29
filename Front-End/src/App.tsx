@@ -1,13 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Cupon from './components/coupon';
-import Redeem from './components/redeem';
+import Photos from './components/photos';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/cupon" element={<Cupon />} />
-        <Route path="/redeem" element={<Redeem />} />
+        <Route path="/album" element={<Photos />} />
       </Routes>
     </Router>
   );

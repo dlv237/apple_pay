@@ -1,5 +1,5 @@
 
-import '../App.css';
+import '../appStyles.css';
 
 export default function Cupon() {
     return (
